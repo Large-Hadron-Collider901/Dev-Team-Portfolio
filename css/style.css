@@ -1,0 +1,151 @@
+body {
+    background-color: #f7ece6;
+    overflow: hidden;
+ 
+ }
+ 
+ 
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////  PROFILE CARD TO BRITTANI'S PAGE //////
+*/
+ 
+#firstbox {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  height: 100%;
+  width: inherit;
+  display: inherit;
+  overflow: hidden;
+  background-color: #FFE3FE;
+  opacity: 0.40;
+  z-index: 3;
+}
+ 
+#firstbox:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out; 
+  background-color: #FFE3FE;
+  opacity: 10;
+}
+ 
+.boxone {
+  margin-top: 200px;
+  margin-left: 90px;
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  background-image: url(./images/14.gif);
+  background-size: 320px;
+  background-color: #e5e2e8;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out; 
+  border: #e5e2e8 2px solid;
+  box-shadow:  5px 5px 10px 2px rgb(223, 113, 245),
+               -5px 5px 10px 2px rgb(102, 89, 219);
+  border-radius: 160px;
+  opacity: 1;
+}
+ 
+.boxone:hover {
+  background-color: #e5e2e8;
+  box-shadow:  -5px 4px 10px 2px rgb(134, 49, 151),
+                4px 5px 10px 2px rgb(102, 89, 219);
+}
+ 
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////// PROFILE CARD TO SKYE'S PAGE //////
+*/
+ 
+#secondbox {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  height: 100%;
+  width: inherit;
+  display: inherit;
+  overflow: hidden;
+  background-color: #F7E6AD;
+  opacity: 0.40;
+  z-index: 3;
+}
+ 
+#secondbox:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out; 
+  background-color: #BCFFB9;
+  opacity: 1;
+}
+ 
+.boxtwo {
+  margin-top: 200px;
+  margin-left: 90px;
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  background-image: url(./images/15.gif);
+  background-size: 380px;
+  background-color: #CDF0EA;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out; 
+  border: #CDF0EA 2px solid;
+  box-shadow:  5px 5px 10px 2px rgb(69, 216, 130),
+               -5px 5px 10px 2px rgb(219, 200, 89);
+  border-radius: 160px;
+ 
+}
+ 
+.boxtwo:hover {
+  background-color: #CDF0EA;
+  box-shadow:  -5px 4px 10px 2px rgb(231, 220, 56),
+                4px 5px 10px 2px rgb(62, 214, 108);
+}
+ 
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////// PROFILE CARD TO SHANII'S PAGE //////
+*/
+ 
+#threebox {
+  position: absolute;
+  top: 0px;
+  left: 1100px;
+  height: 100%;
+  width: inherit;
+  display: inherit;
+  overflow: hidden;
+  background-color: #a7f7f7;
+  opacity: 0.40;
+  z-index: 3;
+}
+ 
+#threebox:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out; 
+  background-color: #f5e7f8;
+  opacity: 1;
+}
+ 
+.boxthree {
+  margin-top: 200px;
+  margin-left: 90px;
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  background-image: url(./images/12.gif);
+  background-size: 340px;
+  background-color: #CDF0EA;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out; 
+  border: #CDF0EA 2px solid;
+  box-shadow:  5px 5px 10px 2px rgb(140, 233, 160),
+               -5px 5px 10px 2px rgb(114, 212, 175);
+  border-radius: 160px;
+ 
+}
+ 
+.boxthree:hover {
+  background-color: #CDF0EA;
+  box-shadow:  -5px 4px 10px 2px rgb(61, 175, 196),
+                4px 5px 10px 2px rgb(110, 160, 125);
+}
+ 
