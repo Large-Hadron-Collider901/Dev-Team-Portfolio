@@ -1,116 +1,111 @@
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////// GENERAL THINGS //////
 */
- 
-h1 {}
- 
-h2{}
- 
-h3{}
- 
+
+
 h4{
-     padding-top: 83px;
-     padding-left: 15px;   
-     font-size: 16px;
-     color: cornsilk;
-     text-shadow: darkkhaki;
-}
- 
-a:link{
-      text-decoration: none;
-}
- 
-p.banner {
-       position: relative;
-       top: -125px;
-       left: 120px;
-       width: 270px;
-       height: 70px;
-       padding: 6px;
-       font-size: 12px;
-}
- 
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////// WELCOME BOX WITH BUTTON ////// BEING REVAMPED
-*/
- 
-#welcomebox {
-        position: absolute;
-        top: 150px;
-        left: 470px;
-        height: 400px;
-        width: 700px;
-        padding: 30px;
-        overflow: hidden;
-        background-color: rgb(186, 240, 240);
-        color: aliceblue;
-        font-size: 20px;
-        text-align: justify;
-        word-wrap: normal;
-        text-shadow: #357179 2px 2px 2px;
-        box-shadow: bisque 5px 5px 5px;
-        animation: fadeIn 1s ease-in-out 2s both;
-        z-index: 0;
-      }
- 
-@keyframes fadeIn {
-      from {  opacity: 1; }
-        to {  opacity: 1; }
-}      
- 
- 
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////// SIDE NAV & BUTTON ////// BUTTON FUNCTIONALITY IS DISABLED AT THE MOMENT
-*/
- 
-#main-button {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 100px;
-        height: 100%; 
-        background-color: rgb(186, 240, 240);
-}
- 
-.button {
-         position: absolute;
-         top: 90px;
-         left: -50px;        
-         padding: 20px;
-         background-color: transparent;
-         font-size: 60px;
-         color: #fff;
-         text-shadow: bisque 3px 3px 3px;
-         transition-duration: 300ms;
-         transition-timing-function: ease-in-out; 
-         transform: rotate(270deg);
-         border: transparent;
-         z-index: 5;
- 
-}
- 
-.button:hover {
-        color: rgb(245, 243, 245);
-        text-shadow: bisque 3px 3px 3px;
-        z-index: 5;
- 
-}
- 
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////// ANIMATION TRIGGER ON BUTTON CLICK //////  LACKS BUTTON FUNCTIONALITY
-*/
- 
-#maicontent {  
-        background-color: bisque;
-        width: 1000px;
-        overflow: hidden;
-        display: visible;
-        animation: reveal 100ms ease 0s forwards;
-        z-index: 4;
-      }
- 
- @keyframes reveal {
-        from { width: 0px; }
-        to { width: 500px; }
-}      
- 
+        padding-top: 83px;
+        padding-left: 15px;   
+        font-size: 16px;
+        color: cornsilk;
+        text-shadow: darkkhaki;
+   }
+   
+   a:link{
+         text-decoration: none;
+   }
+   
+   p.banner {
+          position: relative;
+          top: -125px;
+          left: 120px;
+          width: 270px;
+          height: 70px;
+          padding: 6px;
+          font-size: 12px;
+   }
+   
+   /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////// WELCOME BOX WITH BUTTON ////// BEING REVAMPED
+   */
+   
+   #welcomebox {
+           position: absolute;
+           top: 150px;
+           left: 470px;
+           height: 400px;
+           width: 700px;
+           padding: 30px;
+           overflow: hidden;
+           background-color: rgb(186, 240, 240);
+           color: aliceblue;
+           font-size: 20px;
+           text-align: justify;
+           word-wrap: normal;
+           text-shadow: #357179 2px 2px 2px;
+           box-shadow: bisque 5px 5px 5px;
+           animation: fadeIn 1s ease-in-out 2s both;
+           z-index: 0;
+         }
+         
+   @keyframes fadeIn {
+         from {  opacity: 1; }
+           to {  opacity: 1; }
+   }      
+   
+   
+   /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////// SIDE NAV & BUTTON ////// BUTTON FUNCTIONALITY IS DISABLED AT THE MOMENT
+   */
+   
+   #main-button {
+           position: absolute;
+           top: 0px;
+           left: 0px;
+           width: 100px;
+           height: 100%; 
+           background-color: rgb(186, 240, 240);
+   }
+   
+   .button {
+            position: absolute;
+            top: 90px;
+            left: -50px;        
+            padding: 20px;
+            background-color: transparent;
+            font-size: 60px;
+            color: #fff;
+            text-shadow: bisque 3px 3px 3px;
+            transition-duration: 300ms;
+            transition-timing-function: ease-in-out; 
+            transform: rotate(270deg);
+            border: transparent;
+            z-index: 5;
+   
+   }
+   
+   .button:hover {
+           color: rgb(245, 243, 245);
+           text-shadow: bisque 3px 3px 3px;
+           z-index: 5;
+   
+   }
+   
+   /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////// ANIMATION TRIGGER ON BUTTON CLICK //////  LACKS BUTTON FUNCTIONALITY
+   */
+   
+   #maicontent {  
+           background-color: bisque;
+           width: 1000px;
+           overflow: hidden;
+           display: visible;
+           animation: reveal 100ms ease 0s forwards;
+           z-index: 4;
+         }
+   
+    @keyframes reveal {
+           from { width: 0px; }
+           to { width: 500px; }
+   }      
+   
