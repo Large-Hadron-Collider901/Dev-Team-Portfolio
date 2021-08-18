@@ -3,7 +3,7 @@
 */
 
 nav {
-text-align: right;
+text-align: left;
 position: fixed;
 z-index: 999;
 }
