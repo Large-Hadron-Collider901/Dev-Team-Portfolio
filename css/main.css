@@ -11,7 +11,7 @@ nav {
          transform: rotate(90deg);
 }
 
-li.nav{
+li.nav {
          display: block;
          text-decoration: none;
 
@@ -34,7 +34,7 @@ a.nav:hover {
 
 }
 
-a.nav:visited{
+a.nav:visited {
          color: #fff;
 
 }
