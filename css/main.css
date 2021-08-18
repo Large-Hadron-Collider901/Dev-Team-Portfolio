@@ -2,7 +2,11 @@
 /////////// GENERAL THINGS //////
 */
 
-
+nav {
+text-align: right;
+position: fixed;
+z-index: 999;
+}
 h4{
         padding-top: 83px;
         padding-left: 15px;   
