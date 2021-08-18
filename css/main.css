@@ -1,25 +1,41 @@
+nav {
+         text-align: left;
+         position: fixed;
+         z-index: 999;
+}
+
+a.nav:link {
+         
+
+}
+
+a.nav:hover {
+
+
+}
+
+a.nav:visited{
+
+
+}
+
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////// GENERAL THINGS //////
 */
 
-nav {
-text-align: left;
-position: fixed;
-z-index: 999;
-}
 h4{
-        padding-top: 83px;
-        padding-left: 15px;   
-        font-size: 16px;
-        color: cornsilk;
-        text-shadow: darkkhaki;
+         padding-top: 83px;
+         padding-left: 15px;   
+         font-size: 16px;
+         color: cornsilk;
+         text-shadow: darkkhaki;
    }
    
-   a:link{
+a.reveal:link{
          text-decoration: none;
    }
    
-   p.banner {
+p.banner {
           position: relative;
           top: -125px;
           left: 120px;
@@ -28,12 +44,13 @@ h4{
           padding: 6px;
           font-size: 12px;
    }
+
    
-   /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-   /////////// WELCOME BOX WITH BUTTON ////// BEING REVAMPED
-   */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////// WELCOME BOX WITH BUTTON ////// BEING REVAMPED
+*/
    
-   #welcomebox {
+#welcomebox {
            position: absolute;
            top: 150px;
            left: 470px;
@@ -50,19 +67,19 @@ h4{
            box-shadow: bisque 5px 5px 5px;
            animation: fadeIn 1s ease-in-out 2s both;
            z-index: 0;
-         }
+   }
          
-   @keyframes fadeIn {
-         from {  opacity: 0; }
+@keyframes fadeIn {
+           from {  opacity: 0; }
            to {  opacity: 1; }
    }      
    
    
-   /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-   /////////// SIDE NAV & BUTTON ////// BUTTON FUNCTIONALITY IS DISABLED AT THE MOMENT
-   */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////// SIDE NAV & BUTTON ////// BUTTON FUNCTIONALITY IS DISABLED AT THE MOMENT
+*/
    
-   #main-button {
+#main-button {
            position: absolute;
            top: 0px;
            left: 0px;
@@ -71,7 +88,7 @@ h4{
            background-color: rgb(186, 240, 240);
    }
    
-   .button {
+.button {
             position: absolute;
             top: 90px;
             left: -50px;        
@@ -88,18 +105,18 @@ h4{
    
    }
    
-   .button:hover {
+.button:hover {
            color: rgb(245, 243, 245);
            text-shadow: bisque 3px 3px 3px;
            z-index: 5;
    
    }
    
-   /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-   /////////// ANIMATION TRIGGER ON BUTTON CLICK //////  LACKS BUTTON FUNCTIONALITY
-   */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////// ANIMATION TRIGGER ON BUTTON CLICK //////  LACKS BUTTON FUNCTIONALITY
+*/
    
-   #maicontent {  
+#maicontent {  
            background-color: bisque;
            width: 1000px;
            overflow: hidden;
@@ -107,9 +124,9 @@ h4{
            animation: reveal 100ms ease 0s forwards;
            z-index: 4;
          }
-   
+ /*  
     @keyframes reveal {
            from { width: 0px; }
            to { width: 500px; }
    }      
-   
+*\   
