@@ -1,42 +1,214 @@
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////// TRANSITION FUNCTIONALLITY //////
+*/
+
+.page {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   animation: fadeIn 1s ease-in-out 2s both;
+ }
+
+@keyframes fadeIn {
+   from { top: -100%; opacity: 0;}
+   to {  top: 0%; opacity: 1;}
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////// NAVIGATION SECTION //////
 */
 
 nav {
-         text-align: left;
-         position: fixed;
-         top: 100px;
-         left: -45px ;
-         z-index: 999;
-         transform: rotate(90deg);
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   text-align: left;
+   z-index: 5;
 }
 
-li.nav {
-         display: block;
-         text-decoration: none;
+#navigation {
+   position: absolute;
+   top: 27px;
+   left: 105px;
+   height: 30px;
+   width: 100%;
+   z-index: 8;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+a.about:link {
+   position: absolute;
+   display: block;
+   width: 20px;
+   height: 20px;
+   padding: 10px;
+  background-color: #FFCEE6;
+  color: transparent;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+}
+
+a.about:visited {
+   width: 20px;
+   height: 20px;
+   padding: 10px;
+  background-color: #FFCEE6;
+  color: transparent;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+}
+
+
+a.about:hover {
+   width: 20px;
+   height: 55px;
+   padding: 10px;
+  background-color: #FCBCD7;
+  color: #ffffff;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+     border-bottom: #ffffff 7px solid;
+   z-index: 1;
+}
+
+
+a.contactus:link {
+   position: absolute;
+   display: block;
+   width: 20px;
+   height: 20px;
+   padding: 10px;
+   margin-top: 25px;
+  background-color: #F9A3CB;
+  color: transparent;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+   z-index: 0;
+}
+
+a.contactus:visited {
+   width: 20px;
+   height: 20px;
+   padding: 10px;
+  background-color: #F9A3CB;
+  color: transparent;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+}
+
+
+a.contactus:hover {
+   width: 60px;
+   height: 10px;
+   padding: 10px;
+  background-color: #EF87BE;
+  color: #ffffff;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.2s ease-out;
+     -moz-transition: all 0.2s ease-out;
+   border-: #ffffff 7px solid;
 
 }
 
-a.nav:link {
-         display: inline-block;
-         height: 25px;
-         width: 200px;
-         text-decoration: none; 
-         color: #fff;
-         font-size: 35px;
-         
+a.blank:link {
+   position: absolute;
+   display: block;
+   width: 20px;
+   height: 20px;
+   padding: 10px;
+   margin-top: 25px;
+  background-color: #F9A3CB;
+  color: transparent;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+   z-index: 0;
 }
 
-a.nav:hover {
-         padding-right: 5px;
-         color: #fff;         
-         transition: 300ms ease-in-out 200ms;
-
+a.blank:visited {
+   width: 20px;
+   height: 20px;
+   padding: 10px;
+  background-color: #F9A3CB;
+  color: transparent;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
 }
 
-a.nav:visited {
-         color: #fff;
 
+a.blank:hover {
+   width: 60px;
+   height: 20px;
+   padding: 15px 10px 10px 10px;
+  background-color: #EF87BE;
+  color: #ffffff;		
+  font-size: 10px;
+  text-align: center;
+   text-transform: uppercase;
+  text-decoration: none;
+   letter-spacing: 1px;
+     -webkit-transition: all 0.2s ease-out;
+     -moz-transition: all 0.2s ease-out;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -44,109 +216,98 @@ a.nav:visited {
 */
 
 h4{
-         padding-top: 83px;
-         padding-left: 15px;   
-         font-size: 16px;
-         color: cornsilk;
-         text-shadow: darkkhaki;
-   }
-   
-a.reveal:link{
-         text-decoration: none;
-   }
-   
-p.banner {
-          position: relative;
-          top: -125px;
-          left: 120px;
-          width: 270px;
-          height: 70px;
-          padding: 6px;
-          font-size: 12px;
-   }
+   padding-top: 83px;
+   padding-left: 15px; 
+   font-size: 16px;
+   color: cornsilk;
+   text-shadow: darkkhaki;
+}
 
-   
+a.reveal:link{
+   text-decoration: none;
+}
+
+p.banner {
+    position: relative;
+    top: -125px;
+    left: 120px;
+    width: 270px;
+    height: 70px;
+    padding: 6px;
+    font-size: 12px;
+}
+
+
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////// WELCOME BOX WITH BUTTON ////// BEING REVAMPED
 */
-   
+
 #welcomebox {
-           position: absolute;
-           top: 150px;
-           left: 470px;
-           height: 400px;
-           width: 700px;
-           padding: 30px;
-           overflow: hidden;
-           background-color: rgb(186, 240, 240);
-           color: aliceblue;
-           font-size: 20px;
-           text-align: justify;
-           word-wrap: normal;
-           text-shadow: #357179 2px 2px 2px;
-           box-shadow: bisque 5px 5px 5px;
-           animation: fadeIn 1s ease-in-out 2s both;
-           z-index: 0;
-   }
- /*        
+     position: absolute;
+     top: 220px;
+     left: 500px;
+     height: 350px;
+     width: 700px;
+     padding: 30px;
+     overflow: hidden;
+     background-color: rgb(186, 240, 240);
+     color: aliceblue;
+     font-size: 20px;
+     text-align: justify;
+     word-wrap: normal;
+     text-shadow: #357179 2px 2px 2px;
+     box-shadow: bisque 5px 5px 5px;
+     animation: fadeIn 0.5s ease-in-out 1s both;
+     z-index: 0;
+}
+     
 @keyframes fadeIn {
-           from {  opacity: 0; }
-           to {  opacity: 1; }
-   } *\     
-   
-   
+     from {  opacity: 0; }
+     to {  opacity: 1; }
+}    
+
+
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////// SIDE NAV & BUTTON ////// BUTTON FUNCTIONALITY IS DISABLED AT THE MOMENT
 */
-   
+
 #main-button {
-           position: absolute;
-           top: 0px;
-           left: 0px;
-           width: 100px;
-           height: 100%; 
-           background-color: rgb(186, 240, 240);
-   }
-   
-.button {
-            position: absolute;
-            top: 90px;
-            left: -50px;        
-            padding: 20px;
-            background-color: transparent;
-            font-size: 60px;
-            color: #fff;
-            text-shadow: bisque 3px 3px 3px;
-            transition-duration: 300ms;
-            transition-timing-function: ease-in-out; 
-            transform: rotate(270deg);
-            border: transparent;
-            z-index: 5;
-   
-   }
-   
-.button:hover {
-           color: rgb(245, 243, 245);
-           text-shadow: bisque 3px 3px 3px;
-           z-index: 5;
-   
-   }
-   
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////// ANIMATION TRIGGER ON BUTTON CLICK //////  LACKS BUTTON FUNCTIONALITY
-*/
-   
-#maicontent {  
-           background-color: bisque;
-           width: 1000px;
-           overflow: hidden;
-           display: hidden;
-           animation: reveal 100ms ease 0s forwards;
-           z-index: 4;
-         }
- /*  
-    @keyframes reveal {
-           from { width: 0px; }
-           to { width: 500px; }
-   }      
-*\   
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     height: 125px; 
+     background-color: rgb(186, 240, 240);
+     z-index: 4;
+}
+
+a.button {
+      position: absolute;
+      top: 0%;
+      left: 11%;        
+      padding: 15px;
+      background-color: transparent;
+      font-family: Cav;
+      font-size: 60px;
+      color: #fff;
+      text-shadow: #F9A3CB 3px 3px 3px;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in-out; 
+      border: transparent;
+      z-index: 5;
+
+}
+
+a.button::first-letter {
+   font-size: 100px;
+   font-weight: lighter;
+
+}
+
+a.button:hover {
+     color: #ffffff;
+     text-shadow: bisque 3px 3px 3px;
+     z-index: 5;
+
+}
+

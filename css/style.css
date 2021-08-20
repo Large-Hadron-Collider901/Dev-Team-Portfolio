@@ -1,7 +1,19 @@
 body {
   background-color: #f7ece6;
   overflow: hidden;
+  font-size: 15px;
+  font-family: Cav;
+}   
 
+
+@font-face {
+font-family: "Or";
+src: url(http://static.tumblr.com/czno3wd/gEWn6fk7t/orgasmo.otf);
+}
+
+@font-face {
+font-family: "Cav";
+src: url(http://static.tumblr.com/czno3wd/Yk5n6fkk5/caviardreams.ttf);
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -11,10 +23,9 @@ body {
 #firstbox {
 position: absolute;
 top: 0px;
-left: 100px;
+left: 0px;
 height: 100%;
-width: inherit;
-display: inherit;
+width: 535px;
 overflow: hidden;
 background-color: #FFE3FE;
 opacity: 0.40;
@@ -29,7 +40,7 @@ opacity: 10;
 }
 
 .boxone {
-margin-top: 200px;
+margin-top: 260px;
 margin-left: 90px;
 width: 320px;
 height: 320px;
@@ -59,10 +70,9 @@ box-shadow:  -5px 4px 10px 2px rgb(134, 49, 151),
 #secondbox {
 position: absolute;
 top: 0px;
-left: 600px;
+left: 535px;
 height: 100%;
-width: inherit;
-display: inherit;
+width: 535px;
 overflow: hidden;
 background-color: #F7E6AD;
 opacity: 0.40;
@@ -77,7 +87,7 @@ opacity: 1;
 }
 
 .boxtwo {
-margin-top: 200px;
+margin-top: 260px;
 margin-left: 90px;
 width: 320px;
 height: 320px;
@@ -107,10 +117,9 @@ box-shadow:  -5px 4px 10px 2px rgb(231, 220, 56),
 #threebox {
 position: absolute;
 top: 0px;
-left: 1100px;
+left: 1070px;
 height: 100%;
-width: inherit;
-display: inherit;
+width: 535px;
 overflow: hidden;
 background-color: #a7f7f7;
 opacity: 0.40;
@@ -125,7 +134,7 @@ opacity: 1;
 }
 
 .boxthree {
-margin-top: 200px;
+margin-top: 260px;
 margin-left: 90px;
 width: 320px;
 height: 320px;
@@ -147,4 +156,5 @@ background-color: #CDF0EA;
 box-shadow:  -5px 4px 10px 2px rgb(61, 175, 196),
               4px 5px 10px 2px rgb(110, 160, 125);
 }
+
 
