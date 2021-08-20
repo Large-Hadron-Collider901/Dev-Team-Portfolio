@@ -41,8 +41,8 @@ body {
    
      #homelink {
        position: absolute;
-       top: 42%;
-       left: 0%;
+       top: 34.4%;
+       left: 47%;
        width: 20%;
        height: 37%;
        z-index: -8;
@@ -56,9 +56,9 @@ body {
        width: 153px;
        background: #f5f5f5;
        border: 3px solid #40653d;
-       background-image:url('http://static.dyp.im/YnlhNCy5Ir/960c0f0c5fe934e0de406675aa29b0ed.jpg');
+       background-image:url('uvaimg/shanii.jpg');
        background-repeat:no-repeat;
-       background-size:153px 436px;
+       background-size:153px 156px;
    }
    
    .arrow_box {
@@ -141,14 +141,14 @@ body {
    
      a.home:link{
        color: #DCDCDC;
-       font-size: 25px;
+       font-size: 40px;
        line-height: 25px;
        letter-spacing: 1px; 
        word-spacing: 1px;
        transition: all 0.4s ease-out;}
      a.home:visited{
        color: #DCDCDC;
-       font-size: 25px;
+       font-size: 40px;
        line-height: 25px;
        letter-spacing: 1px; 
        word-spacing: 1px;
