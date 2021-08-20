@@ -1,0 +1,220 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: normal;
+    font-size:11px;
+    color:white;
+    background-color: rgb(114, 56, 28);
+}
+
+
+footer {
+    color:black
+}
+
+
+a { 
+    color: rgb(224, 205, 168);
+    text-decoration:none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+a:hover { 
+    color:(color=Links hover);
+    text-decoration:none;
+} 
+
+a:active {
+    outline: none;}
+    
+    a:focus{
+        -moz-outline-style: none;
+    } 
+    
+    :-moz-any-link:focus{
+        outline: none;
+    } 
+    
+    
+    img{
+    border:none;display:block;
+} 
+    
+    
+    .clear {clear:both;} 
+    
+    :-webkit-input-placeholder {
+        opacity: 1 !important;color:(color=links);
+    }
+        
+        ::-webkit-input-placeholder {
+            opacity: 1 !important;color:(color=links);
+        } 
+        
+        :-moz-placeholder {
+            opacity: 1 !important;
+            color:(color=links);
+        } 
+        
+        ::-moz-placeholder {
+            opacity: 1 !important;color:(color=links);
+        }
+             
+        :-ms-input-placeholder {
+            opacity: 1 !important;color:(color=links);
+        } 
+        
+        ::-ms-input-placeholder {
+             opacity: 1 !important;color:(color=links);
+        
+        }
+
+        #container {
+            position:relative;
+            height:100%;
+            width:100%;
+        } 
+        
+        #container #sidebar { 
+            font-weight: 700;
+            padding: 55px 20px 40px 40px;
+            font-size:11px;
+            text-transform: capitalize; 
+            position: fixed; 
+            
+            {block:IfUppercaseText} text-transform= uppercase; {/block:IfUppercaseText}
+            
+            {
+                block:IfSidebarLeftOrRight
+            } right click on it and hit local path releative path
+                
+                right= 0; left:auto;
+                 padding: 55px 40px 40px 20px; 
+                
+                 {/block:IfSidebarLeftOrRight} 
+
+                 {block:IfSidebarTopOrBottom} top:auto; bottom:0; 
+                 
+                 {/block:IfSidebarTopOrBottom}}
+
+                #container #sidebar.top { top: 0; bottom:auto;} #container #sidebar.bottom 
+                { top:auto; bottom:0;} #container #sidebar.left 
+
+                { left:0; right:auto; padding: 55px 20px 40px 40px;
+                }
+                
+                #container #sidebar.right { 
+                    right:0; left:auto; padding: 55px 40px 40px 20px;
+                } 
+                
+                #container #sidebar.width-150 {
+                    width: 150px;
+                }
+                
+                #container #sidebar.width-225 {
+                    width: 225px;
+                }
+                
+                #container #sidebar #portrait {
+                    height: auto;
+                    width: 100px;
+                    z-index:50;
+                    opacity:0.75;
+                    margin:0 auto 25px;
+                    
+                    -webkit-transition: all 0.3s linear; 
+                    -moz-transition: all 0.3s linear;
+                    -o-transition: all 0.3s linear;
+                    transition: all 0.3s linear;
+                    
+                    
+                        Block:IfShowBiggerPortrait}
+                        
+                        width:150px;
+                    
+                        
+                        #container #sidebar #portrait:hover {
+                            opacity:1.0;
+                        }
+
+                        #container #sidebar #social-symbols {
+                            margin: 0 0 25px;
+                            text-align: center;
+                            width: 150px;
+                        }
+                        
+                        #container #sidebar #social-symbols a { 
+                            color: #FFFFFF;
+                            display: inline-block;
+                            font-size: 9px;
+                            font-weight: 800;
+                            letter-spacing: -1px;
+                            margin: 0 1px 3px 0;
+                            opacity: 0.7; padding: 4px 0;
+                            position: relative;
+                            text-align: center;
+                            width: 21px;
+                        }
+                        
+
+                        #container #sidebar #social-symbols a:hover {
+                            opacity:1.0;
+                        }
+                        
+                        #container #sidebar #social-symbols a.fb {
+                            background-color: #3B5998;
+                        }
+                        
+                        #container #sidebar #social-symbols a.ig {
+                            background-color: #30618C;
+                        }
+                        
+                        #container #sidebar #social-symbols a.tw {
+                            background-color: #00B0ED;
+                        }
+                        
+                        #container #sidebar #social-symbols a.gp {
+                            background-color: #DF4A32;
+                        }
+                        
+                        #container #sidebar #social-symbols a.yt {
+                            background-color: #D7041B;
+                        }
+                            
+                            #container #sidebar #social-symbols a.dr {
+                                background-color: #ea4c89;
+                            }
+                            
+                            #container #sidebar #social-symbols a.bl {
+                                background-color: #FE6700;
+                            }
+                            
+                            #container #sidebar #social-symbols a.vi {
+                                background-color: #1AB7EA;
+                            }
+                            
+                            #container #sidebar #social-symbols a.vk {
+                                background-color: #507296;
+                            }
+                            
+                            #container #sidebar #social-symbols a.sc {
+                                background-color: #FF4B00;
+                            }
+                            
+                            #container #sidebar #social-symbols a.fl {
+                                background-color: #0063DC;
+                            }
+                            
+                            #container #sidebar #social-symbols a.pi {
+                                background-color: #CB2027;
+                            }
+                            
+                            #container #sidebar #social-symbols.fontello {
+                                height:auto;
+                                white-space:none;
+                                font-family:"mxdvs-themes";
+                                word-spacing:-9px;}
