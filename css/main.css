@@ -157,7 +157,7 @@ a.contactus:hover {
    letter-spacing: 1px;
      -webkit-transition: all 0.2s ease-out;
      -moz-transition: all 0.2s ease-out;
-   border-: #ffffff 7px solid;
+   border-right: #ffffff 7px solid;
 
 }
 

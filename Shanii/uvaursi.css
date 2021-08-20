@@ -1,0 +1,158 @@
+body {
+       background-color: #76a973;
+       overflow: hidden;
+       font-size: 12px;
+       font-family: Cav;
+       text-align: justify;
+   }   
+   
+   
+   @font-face {
+     font-family: "Or";
+     src: url(http://static.tumblr.com/czno3wd/gEWn6fk7t/orgasmo.otf);
+   }
+   
+    @font-face {
+     font-family: "Cav";
+     src: url(http://static.tumblr.com/czno3wd/Yk5n6fkk5/caviardreams.ttf);
+    }
+     
+    ::-webkit-scrollbar-button{
+       background-color: transparent;
+   }
+     ::-webkit-scrollbar-thumb {
+       background-color:    #40653d; 
+   }
+     ::-webkit-scrollbar { 
+       width:2px; 
+       background-color:   #99bf97;
+   }
+     
+     #container {
+      position: absolute;
+      top: 42%;
+      left: 0%;
+      background: #ABE098;
+      width: 100%;
+      height: 37%;
+      opacity: 0.50;
+      z-index: -8;
+     }
+   
+     #homelink {
+       position: absolute;
+       top: 42%;
+       left: 0%;
+       width: 20%;
+       height: 37%;
+       z-index: -8;
+      }
+     
+     #side_pic {
+       position: absolute;
+       top:51.9%;
+       left:48%;
+       height: 150px;
+       width: 153px;
+       background: #f5f5f5;
+       border: 3px solid #40653d;
+       background-image:url('http://static.dyp.im/YnlhNCy5Ir/960c0f0c5fe934e0de406675aa29b0ed.jpg');
+       background-repeat:no-repeat;
+       background-size:153px 436px;
+   }
+   
+   .arrow_box {
+       position: absolute;
+       top:50%;
+       left:60%;
+       background: #598d56;
+       border: 3px solid #40653d;
+       height: 150px;
+       width: 350px;
+   }
+   .arrow_box:after, .arrow_box:before {
+       right: 100%;
+       border: solid transparent;
+       content: " ";
+       height: 0px;
+       width: 0px;
+       position: absolute;
+       pointer-events: none;
+   }
+   
+   .arrow_box:after {
+       border-color: rgba(136, 183, 213, 0);
+       border-right-color: #598d56;
+       border-width: 30px;
+       top: 50%;
+       margin-top: -30px;
+   }
+   .arrow_box:before {
+       border-color: rgba(194, 225, 245, 0);
+       border-right-color: #40653d;
+       border-width: 34px;
+       top: 50%;
+       margin-top: -34px;
+   }
+   
+   #borderover {
+       position:absolute;
+       top:49.5%;
+       left:48%;
+       background-color: #40653d;
+       width:575px;
+       height:10px;
+       z-index: -1;
+   }
+   
+   #borderunder {
+       position:absolute;
+       top:73.5%;
+       left:48%;
+       background-color: #40653d;
+       width:575px;
+       height:10px;
+       z-index: -2;
+   }
+   
+   h1{    
+       width: 140px;
+       height: 10px;
+       margin-top: -70px;
+       color: #DCDCDC;
+       font-size: 25px;
+       line-height: 25px;
+       letter-spacing: 1px; 
+       word-spacing: 1px;
+       text-shadow: #40653d 2px 1px 1px;
+   
+   }
+   
+   a:link{
+     color:#2c462b; 
+     text-decoration:none; 
+     transition: all 0.4s ease-out;}
+   a:visited{
+     color:#2c462b; 
+     transition: all 0.6s ease-out;}
+   a:hover{
+     color:#5c9259; 
+     transition: all 0.6s ease-out;}
+   
+     a.home:link{
+       color: #DCDCDC;
+       font-size: 25px;
+       line-height: 25px;
+       letter-spacing: 1px; 
+       word-spacing: 1px;
+       transition: all 0.4s ease-out;}
+     a.home:visited{
+       color: #DCDCDC;
+       font-size: 25px;
+       line-height: 25px;
+       letter-spacing: 1px; 
+       word-spacing: 1px;
+       transition: all 0.6s ease-out;}
+     a.home:hover{
+       color:#5c9259; 
+       transition: all 0.6s ease-out;}
