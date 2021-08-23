@@ -216,11 +216,13 @@ a.blank:hover {
 */
 
 h4{
+   position: relative; bottom: 30px;
    padding-top: 83px;
    padding-left: 15px; 
    font-size: 16px;
-   color: cornsilk;
+   color: rgb(138, 118, 133);
    text-shadow: darkkhaki;
+   font-size: 25px;
 }
 
 a.reveal:link{
