@@ -247,15 +247,15 @@ p.banner {
      top: 220px;
      left: 500px;
      height: 350px;
-     width: 700px;
+     width: 800px;
      padding: 30px;
      overflow: hidden;
-     background-color: rgb(186, 240, 240);
+     background-color: rgb(67, 197, 197);
      color: aliceblue;
      font-size: 20px;
      text-align: justify;
      word-wrap: normal;
-     text-shadow: #357179 2px 2px 2px;
+     text-shadow: #05383f 2px 2px 2px;
      box-shadow: bisque 5px 5px 5px;
      animation: fadeIn 0.5s ease-in-out 1s both;
      z-index: 0;
@@ -277,7 +277,7 @@ p.banner {
      left: 0px;
      width: 100%;
      height: 125px; 
-     background-color: rgb(186, 240, 240);
+     background-color: rgb(67, 197, 197);
      z-index: 4;
 }
 

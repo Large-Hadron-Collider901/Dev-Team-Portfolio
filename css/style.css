@@ -1,20 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
 body {
   background-color: #f7ece6;
   overflow: hidden;
-  font-size: 15px;
-  font-family: Cav;
+  font-size: 15px; 
 }   
+h1 {
+font-family: 'Berkshire Swash', cursive;
+font-size: 40px;
+}
+p {
+font-family: 'Snippet', sans-serif;
+font-size: 25px;
 
-
-@font-face {
-font-family: "Or";
-src: url(http://static.tumblr.com/czno3wd/gEWn6fk7t/orgasmo.otf);
 }
 
-@font-face {
-font-family: "Cav";
-src: url(http://static.tumblr.com/czno3wd/Yk5n6fkk5/caviardreams.ttf);
-}
+
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////  PROFILE CARD TO BRITTANI'S PAGE //////
